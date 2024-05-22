@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-22T08:29:20 IST" name="Suite" finished-at="2024-05-22T08:30:13 IST" duration-ms="52762">
+    <groups>
+    </groups>
+    <test started-at="2024-05-22T08:29:20 IST" name="Test" finished-at="2024-05-22T08:30:13 IST" duration-ms="52762">
+      <class name="com.eva.AutomationPractice.ScrollupDownTestScript">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:29:20 IST" name="beforesuit" finished-at="2024-05-22T08:29:20 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:29:20 IST" name="beforeClass" finished-at="2024-05-22T08:29:30 IST" duration-ms="9978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:29:30 IST" name="beforemethod" finished-at="2024-05-22T08:29:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:29:30 IST" name="beforemethod" finished-at="2024-05-22T08:29:41 IST" duration-ms="10887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[codingkishan@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kishan@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.eva.AutomationPractice.ScrollupDownTestScript.ScrollupDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ScrollupDown()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:29:41 IST" name="ScrollupDown" finished-at="2024-05-22T08:29:41 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollupDown -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:29:41 IST" name="aftermethod" finished-at="2024-05-22T08:29:53 IST" duration-ms="11159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScrollupDown status=SUCCESS method=ScrollupDownTestScript.ScrollupDown()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.eva.AutomationPractice.ScrollupDownTestScript.ScrollupDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:29:53 IST" name="beforemethod" finished-at="2024-05-22T08:29:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:29:53 IST" name="beforemethod" finished-at="2024-05-22T08:30:01 IST" duration-ms="8351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[codingkishan@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kishan@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.eva.AutomationPractice.ScrollupDownTestScript.ScrollupDownwithoutarrow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ScrollupDownwithoutarrow()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:30:01 IST" name="ScrollupDownwithoutarrow" finished-at="2024-05-22T08:30:02 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollupDownwithoutarrow -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:30:02 IST" name="aftermethod" finished-at="2024-05-22T08:30:12 IST" duration-ms="10621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScrollupDownwithoutarrow status=SUCCESS method=ScrollupDownTestScript.ScrollupDownwithoutarrow()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.eva.AutomationPractice.ScrollupDownTestScript.ScrollupDownwithoutarrow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:30:12 IST" name="afterclass" finished-at="2024-05-22T08:30:13 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:com.eva.AutomationPractice.ScrollupDownTestScript@38425407]" started-at="2024-05-22T08:30:13 IST" name="aftersuit" finished-at="2024-05-22T08:30:13 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- com.eva.AutomationPractice.ScrollupDownTestScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

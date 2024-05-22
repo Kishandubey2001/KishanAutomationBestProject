@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="5">
+
+<listeners>
+        <listener class-name="evs.com.listener.CustomTestListener"/>
+    </listeners>
+    
+      <parameter name="browser" value="chrome"></parameter>
+      <parameter name="url" value="https://automationexercise.com/"></parameter>
+	<parameter name="Username" value="codingkishan@yopmail.com"></parameter>
+	<parameter name="Password" value="Kishan@12345"></parameter>
+
+
+  <test  name="Test">
+     <classes>
+<!--     <class name="com.eva.AutomationPractice.AutomationPracticeProject"/>-->
+<!--     <class name="com.eva.AutomationPractice.RemoveProductfromCart"/>-->
+<!--     <class name="com.eva.AutomationPractice.ViewCategoryAndBrandList"/>-->
+<!--     <class name="com.eva.AutomationPractice.AddReveiwOnProductTestScript"/>-->
+      <class name="com.eva.AutomationPractice.ScrollupDownTestScript"/>
+       </classes>  
+       </test> <!-- Test -->
+</suite> <!-- Suite -->
