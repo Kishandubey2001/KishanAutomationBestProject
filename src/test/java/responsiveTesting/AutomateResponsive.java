@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -41,19 +42,28 @@ public class AutomateResponsive {
 	   driver=new ChromeDriver(chromeOpt);
 	   driver.manage().window().maximize();
 	   driver.get("https://automationexercise.com/");
-//	   driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("codingbrains13@gmail.com");
-//	   driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Admin@1234");
-//	   driver.findElement(By.xpath("//button[@class='login-btn']")).click();
+       
 	   Thread.sleep(5000);
 	   screenshot();
 	   
    }
    public void screenshot() throws IOException
    {
-	  TakesScreenshot ts=(TakesScreenshot)driver;
-	File source=  ts.getScreenshotAs(OutputType.FILE);
-String ran=	new RandomString().make(4);
-	Files.copy(source, new File("C:\\Users\\CBPC-09\\Pictures\\Responsive\\"+ran+".png"));
-   }
+	   TakesScreenshot ts = (TakesScreenshot) driver;
+	    File source = ts.getScreenshotAs(OutputType.FILE);
+
+	    // Generate random string
+	    String ran = new RandomString().make(4);
+
+	    // Specify destination file path
+	    String destFilePath = "D:\\javacoding\\KishanAutomationBestProject\\Responsive\\" + ran + ".png";
+	    File destFile = new File(destFilePath);
+
+	    // Create parent directories if they don't exist
+	    destFile.getParentFile().mkdirs();
+
+	    // Copy the file
+	    FileUtils.copyFile(source, destFile);
    
+}
 }

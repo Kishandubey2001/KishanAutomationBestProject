@@ -7,9 +7,10 @@ import com.coding.Allproduct.ProductClass;
 import com.eva.removeproductcart.RemoveProductCartClass;
 import com.evs.vtiger.commonCodes.CommonResuableCode;
 import com.evs.vtiger.testScript.BaseClass;
+import com.evs.vtiger.testScript.RetryAnalyzer;
 
 public class RemoveProductfromCart extends BaseClass{
-	@Test
+	@Test(retryAnalyzer = RetryAnalyzer.class,invocationCount = 1)
 	public void removeProductCart() throws InterruptedException
 	{
 		 ProductClass pc=  new ProductClass(kw);

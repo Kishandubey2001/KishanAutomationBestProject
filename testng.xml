@@ -4,7 +4,7 @@
 
 <listeners>
         <listener class-name="evs.com.listener.CustomTestListener"/>
-    </listeners>
+ </listeners>
     
       <parameter name="browser" value="chrome"></parameter>
       <parameter name="url" value="https://automationexercise.com/"></parameter>

@@ -13,13 +13,13 @@ import com.evs.vtiger.testScript.RetryAnalyzer;
 
 public class AutomationPracticeProject extends BaseClass{
 	public CommonResuableCode cd;
-	@Test(enabled = false, invocationCount = 2,retryAnalyzer = RetryAnalyzer.class)
+	@Test(enabled = true, invocationCount = 2,retryAnalyzer = RetryAnalyzer.class)
 	public void tc001ContactUs()
 	{
 		ContactUsPage cu	=new ContactUsPage(kw);
 		cu.createcontactUsForm();
 	}
-	@Test(enabled = false,retryAnalyzer = RetryAnalyzer.class)
+	@Test(enabled = true,retryAnalyzer = RetryAnalyzer.class)
 	public void projectAllList()
 	{
 	     ProductClass pc=  new ProductClass(kw);
@@ -28,7 +28,7 @@ public class AutomationPracticeProject extends BaseClass{
 	   pc.verifytestfirstproduct();
 	   
 	}
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void verifysearchproduct()
 	{
 		 ProductClass pc=  new ProductClass(kw);
@@ -38,7 +38,7 @@ public class AutomationPracticeProject extends BaseClass{
 		
 	
 	}
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void verifyHomePageSubscription() throws InterruptedException
 	{
 		 ProductClass pc=  new ProductClass(kw);
@@ -48,7 +48,7 @@ public class AutomationPracticeProject extends BaseClass{
 		  sbobj.subscriptionHomepage();
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void verifyCartsubscription() throws InterruptedException
 	{
 		 ProductClass pc=  new ProductClass(kw);
@@ -58,7 +58,7 @@ public class AutomationPracticeProject extends BaseClass{
 		  csubscription.subscriptioncart();
 		  
 	}
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void verifyAddproductInCart() throws InterruptedException
 	{
 		 ProductClass pc=  new ProductClass(kw);
@@ -69,7 +69,7 @@ public class AutomationPracticeProject extends BaseClass{
 		  pc.AddtoCart();
 		  
 	}
-	@Test
+	@Test(retryAnalyzer = RetryAnalyzer.class,invocationCount = 1)
 	public void verifyproductquantiyincart()
 	{
 		ProductClass pc=  new ProductClass(kw);

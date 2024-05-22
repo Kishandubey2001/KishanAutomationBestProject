@@ -5,11 +5,12 @@ import org.testng.annotations.Test;
 
 import com.coding.Allproduct.ProductClass;
 import com.evs.vtiger.testScript.BaseClass;
+import com.evs.vtiger.testScript.RetryAnalyzer;
 
 import verifyscrollupAndDownusingArrow.ScrollUpAndDownUsingArrowClass;
 
 public class ScrollupDownTestScript extends BaseClass{
-   @Test
+   @Test(retryAnalyzer = RetryAnalyzer.class,invocationCount = 1)
 	public void ScrollupDown()
 	{
 	   ProductClass pc=  new ProductClass(kw);
@@ -19,7 +20,7 @@ public class ScrollupDownTestScript extends BaseClass{
 		  scroll.scrollupDown();
 	}
    
-   @Test
+   @Test(retryAnalyzer = RetryAnalyzer.class,invocationCount = 1)
 	public void ScrollupDownwithoutarrow()
 	{
 	   ProductClass pc=  new ProductClass(kw);
